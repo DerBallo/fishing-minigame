@@ -6,6 +6,50 @@
       "entries": [
         {
           "type": "item",
+          "weight": 30,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater1:panfish"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "text": "Panfish"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Common"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Perfect for pan-frying!"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
           "weight": 1,
           "name": "minecraft:tropical_fish",
           "functions": [

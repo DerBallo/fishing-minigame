@@ -7,20 +7,6 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "fishing-minigame:climate/0template",
-          "conditions": [
-            {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "biomes": [
-                  "minecraft:plains"
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "fishing-minigame:climate/f1frozen",
           "conditions": [
             {
