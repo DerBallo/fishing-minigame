@@ -20,15 +20,11 @@ repositories {
 }
 
 loom {
-	splitEnvironmentSourceSets()
-
 	mods {
 		"fishing-minigame" {
 			sourceSet sourceSets.main
-			sourceSet sourceSets.client
 		}
 	}
-
 }
 
 dependencies {

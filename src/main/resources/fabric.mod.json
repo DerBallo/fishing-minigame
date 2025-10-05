@@ -13,21 +13,14 @@
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/fishing-minigame/icon.png",
-	"environment": "*",
+	"environment": "server",
 	"entrypoints": {
-		"main": [
+		"server": [
 			"net.derballo.FishingMinigameMod"
-		],
-		"client": [
-			"net.derballo.FishingMinigameClient"
 		]
 	},
 	"mixins": [
-		"fishing-minigame.mixins.json",
-		{
-			"config": "fishing-minigame.client.mixins.json",
-			"environment": "client"
-		}
+		"fishing-minigame.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.17.2",

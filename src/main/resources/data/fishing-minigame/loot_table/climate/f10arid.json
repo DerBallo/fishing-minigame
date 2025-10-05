@@ -1,0 +1,230 @@
+{
+  "type": "fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater1:chub"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "text": "Chub"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Common"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Not really that chubby."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater1:shad"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "text": "Shad"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Common"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Seems shady to me."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater2:bass"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "yellow",
+                  "italic": false,
+                  "text": "Bass"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Rare"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Why not treble?"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater3:arapaima"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "red",
+                  "italic": false,
+                  "text": "Arapaima"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Epic"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Chunky and vicious."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater3:tigerfish"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "red",
+                  "italic": false,
+                  "text": "Tigerfish"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Epic"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Do NOT let it bite you."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "type": "fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater1:bream"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "text": "Bream"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Common"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "What a basic-looking fish."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater1:carp"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "text": "Carp"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Common"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "They taste so bad."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater1:chub"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "text": "Chub"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Common"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Not really that chubby."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater1:cichlid"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "text": "Cichlid"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Common"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Pronounced like \"sick-lid\"."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater1:grayling"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "text": "Grayling"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Common"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "It sure is gray."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater1:panfish"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "text": "Panfish"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Common"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Perfect for pan-frying!"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater1:shad"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "text": "Shad"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Common"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Seems shady to me."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 30,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater1:trout"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "blue",
+                  "italic": false,
+                  "text": "Trout"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Common"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Taste the rainbow!"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

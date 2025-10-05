@@ -3,6 +3,7 @@
 	"package": "net.derballo.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
+      "FishingBobberEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

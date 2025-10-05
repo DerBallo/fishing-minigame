@@ -1,0 +1,240 @@
+{
+  "type": "fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater3:arapaima"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "red",
+                  "italic": false,
+                  "text": "Arapaima"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Epic"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Chunky and vicious."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater3:dorado"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "red",
+                  "italic": false,
+                  "text": "Dorado"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Epic"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "A golden dorado,"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "not a mahi-mahi."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater3:gar"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "red",
+                  "italic": false,
+                  "text": "Gar"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Epic"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Too many teeth."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater3:sturgeon"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "red",
+                  "italic": false,
+                  "text": "Sturgeon"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Epic"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Doesn't have a"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "medical degree!"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater3:tigerfish"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "red",
+                  "italic": false,
+                  "text": "Tigerfish"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Epic"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Do NOT let it bite you."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

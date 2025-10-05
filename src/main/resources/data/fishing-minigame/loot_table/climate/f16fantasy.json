@@ -1,0 +1,201 @@
+{
+  "type": "fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater4:ballofish"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "green",
+                  "italic": false,
+                  "text": "Ballofish"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Legendary"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "DerBallo wrote all the"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "code for this mod!"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater4:skipperfish"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "green",
+                  "italic": false,
+                  "text": "Skipperfish"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Legendary"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Skipper_Laine made these"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "sprites and items!"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater4:testfish"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "green",
+                  "italic": false,
+                  "text": "Testfish"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Legendary"
+                },                
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "The creator was too"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "lazy to remove this."
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "freshwater4:yeshifish"
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "color": "green",
+                  "italic": false,
+                  "text": "Yeshifish"
+                }
+              ],
+              "target": "item_name"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "dark_purple",
+                  "italic": false,
+                  "text": "Legendary"
+                },
+                {
+                  "color": "gray",
+                  "italic": false,
+                  "text": "Get fishified, Yeshi_!"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

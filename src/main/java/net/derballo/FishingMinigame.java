@@ -10,12 +10,9 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
-
-import java.util.Random;
+import net.minecraft.util.Identifier;
 
 public class FishingMinigame {
-    public static final Random random = new Random();
-
     public static final ItemStack backgroundItem = new ItemStack(Items.WHITE_STAINED_GLASS_PANE);
     public static final ItemStack waterItem = new ItemStack(Items.BLUE_STAINED_GLASS_PANE);
     public static final ItemStack fishingHookItem = new ItemStack(Items.TRIPWIRE_HOOK);
@@ -25,24 +22,39 @@ public class FishingMinigame {
     public static final ItemStack confirmButtonItem = new ItemStack(Items.LIME_STAINED_GLASS_PANE);
 
     public final ServerPlayerEntity playerEntity;
-    SimpleGui GUI;
+    public final ItemStack fishingRod;
+    public SimpleGui GUI;
     public int hookPosition;
     public int fishPosition;
 
     public static void init() {
         backgroundItem.set(DataComponentTypes.CUSTOM_NAME, Text.literal(""));
+        backgroundItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:rock"));
+
         waterItem.set(DataComponentTypes.CUSTOM_NAME, Text.literal("Water"));
+        waterItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:water"));
+
         fishingHookItem.set(DataComponentTypes.CUSTOM_NAME, Text.literal("Fishing Hook"));
+        fishingHookItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:hook"));
+
         fishItem.set(DataComponentTypes.CUSTOM_NAME, Text.literal("Fish"));
+        fishItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:mysteryfish"));
+
         leftButtonItem.set(DataComponentTypes.CUSTOM_NAME, Text.literal("Move left by 3"));
+        leftButtonItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:leftarrow"));
+
         rightButtonItem.set(DataComponentTypes.CUSTOM_NAME, Text.literal("Move right by 5"));
+        rightButtonItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:rightarrow"));
+
         confirmButtonItem.set(DataComponentTypes.CUSTOM_NAME, Text.literal("Confirm"));
+        confirmButtonItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:catch"));
     }
 
-    public FishingMinigame(ServerPlayerEntity player){
+    public FishingMinigame(ServerPlayerEntity player, ItemStack rod){
         playerEntity = player;
-        hookPosition = random.nextInt(9);
-        fishPosition = random.nextInt(9);
+        fishingRod = rod;
+        hookPosition = FishingMinigameMod.random.nextInt(9);
+        fishPosition = FishingMinigameMod.random.nextInt(9);
 
         GUI = new SimpleGui(ScreenHandlerType.GENERIC_9X6, player, false);
         GUI.setTitle(Text.literal("Hook the Fish"));
