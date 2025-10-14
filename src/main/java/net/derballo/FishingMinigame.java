@@ -10,6 +10,7 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
+import net.minecraft.util.Colors;
 import net.minecraft.util.Identifier;
 
 public class FishingMinigame {
@@ -28,26 +29,26 @@ public class FishingMinigame {
     public int fishPosition;
 
     public static void init() {
-        backgroundItem.set(DataComponentTypes.CUSTOM_NAME, Text.literal(""));
         backgroundItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:rock"));
+        backgroundItem.set(DataComponentTypes.ITEM_NAME, Text.literal(""));
 
-        waterItem.set(DataComponentTypes.CUSTOM_NAME, Text.literal("Water"));
         waterItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:water"));
+        waterItem.set(DataComponentTypes.ITEM_NAME, Text.literal(""));
 
-        fishingHookItem.set(DataComponentTypes.CUSTOM_NAME, Text.literal("Fishing Hook"));
         fishingHookItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:hook"));
+        fishingHookItem.set(DataComponentTypes.ITEM_NAME, Text.literal("Needs to be right above the fish!").withColor(Colors.YELLOW));
 
-        fishItem.set(DataComponentTypes.CUSTOM_NAME, Text.literal("Fish"));
         fishItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:mysteryfish"));
+        fishItem.set(DataComponentTypes.ITEM_NAME, Text.literal("Who knows which one?").withColor(Colors.YELLOW));
 
-        leftButtonItem.set(DataComponentTypes.CUSTOM_NAME, Text.literal("Move left by 3"));
         leftButtonItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:leftarrow"));
+        leftButtonItem.set(DataComponentTypes.ITEM_NAME, Text.literal("Move the hook 3 spaces to the left!").withColor(Colors.YELLOW));
 
-        rightButtonItem.set(DataComponentTypes.CUSTOM_NAME, Text.literal("Move right by 5"));
         rightButtonItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:rightarrow"));
+        rightButtonItem.set(DataComponentTypes.ITEM_NAME, Text.literal("Move the hook 5 spaces to the right!").withColor(Colors.YELLOW));
 
-        confirmButtonItem.set(DataComponentTypes.CUSTOM_NAME, Text.literal("Confirm"));
         confirmButtonItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:catch"));
+        confirmButtonItem.set(DataComponentTypes.ITEM_NAME, Text.literal("Press when the hook is above the fish.").withColor(Colors.YELLOW));
     }
 
     public FishingMinigame(ServerPlayerEntity player, ItemStack rod){
