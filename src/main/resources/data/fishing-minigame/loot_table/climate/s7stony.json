@@ -23,6 +23,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "blue",
                   "italic": false,
                   "text": "Drum Fish"
@@ -40,7 +41,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "Not a good instrument."
                 }
               ],
@@ -67,6 +68,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "blue",
                   "italic": false,
                   "text": "Flounder"
@@ -84,7 +86,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "Like a small, wimpy halibut."
                 }
               ],
@@ -111,6 +113,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "blue",
                   "italic": false,
                   "text": "Mackerel"
@@ -128,7 +131,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "\"Holy Mackerel!\""
                 }
               ],
@@ -155,6 +158,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "yellow",
                   "italic": false,
                   "text": "Halibut"
@@ -172,12 +176,12 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "WHY ARE BOTH EYES"
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "ON THE SAME SIDE"
                 }
               ],
@@ -204,6 +208,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "yellow",
                   "italic": false,
                   "text": "Ocean Salmon"
@@ -221,12 +226,12 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "They look quite"
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "plain out here."
                 }
               ],
@@ -253,6 +258,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "yellow",
                   "italic": false,
                   "text": "Realistic Cod"
@@ -270,7 +276,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "Minecraft's texture stinks."
                 }
               ],
@@ -297,6 +303,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "red",
                   "italic": false,
                   "text": "Shark"
@@ -314,7 +321,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "*Jaws Theme Intensifies*"
                 }
               ],
@@ -341,6 +348,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "red",
                   "italic": false,
                   "text": "Tuna"
@@ -358,12 +366,12 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "How do they fit this"
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "whole thing in a can?"
                 }
               ],

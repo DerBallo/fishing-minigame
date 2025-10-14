@@ -23,6 +23,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "blue",
                   "italic": false,
                   "text": "Drum Fish"
@@ -40,7 +41,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "Not a good instrument."
                 }
               ],
@@ -67,6 +68,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "blue",
                   "italic": false,
                   "text": "Flounder"
@@ -84,7 +86,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "Like a small, wimpy halibut."
                 }
               ],
@@ -111,6 +113,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "blue",
                   "italic": false,
                   "text": "Mullet"
@@ -128,7 +131,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "A cute little shiny guy."
                 }
               ],
@@ -155,6 +158,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "blue",
                   "italic": false,
                   "text": "Sea Bass"
@@ -172,7 +176,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "They need some sea treble."
                 }
               ],
@@ -199,6 +203,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "yellow",
                   "italic": false,
                   "text": "Grouper"
@@ -216,7 +221,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "But what does it group?"
                 }
               ],
@@ -243,6 +248,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "yellow",
                   "italic": false,
                   "text": "Tilapia"
@@ -260,12 +266,12 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "Tasty, but unfortunately"
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "very invasive."
                 }
               ],
@@ -292,6 +298,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "red",
                   "italic": false,
                   "text": "Marlin"
@@ -309,12 +316,12 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "As scary as the"
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "magician Merlin."
                 }
               ],
@@ -341,6 +348,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "red",
                   "italic": false,
                   "text": "Shark"
@@ -358,7 +366,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "*Jaws Theme Intensifies*"
                 }
               ],
@@ -385,6 +393,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "red",
                   "italic": false,
                   "text": "Snapper Fish"
@@ -402,12 +411,12 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "Would snap your"
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "neck if it could."
                 }
               ],
@@ -434,6 +443,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "red",
                   "italic": false,
                   "text": "Swordfish"
@@ -451,7 +461,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "Makes a terrible weapon."
                 }
               ],
@@ -478,6 +488,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "red",
                   "italic": false,
                   "text": "Tuna"
@@ -495,12 +506,12 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "How do they fit this"
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "whole thing in a can?"
                 }
               ],

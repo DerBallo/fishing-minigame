@@ -23,6 +23,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "blue",
                   "italic": false,
                   "text": "Mackerel"
@@ -40,7 +41,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "\"Holy Mackerel!\""
                 }
               ],
@@ -67,6 +68,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "yellow",
                   "italic": false,
                   "text": "Halibut"
@@ -84,12 +86,12 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "WHY ARE BOTH EYES"
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "ON THE SAME SIDE"
                 }
               ],
@@ -116,6 +118,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "yellow",
                   "italic": false,
                   "text": "Ocean Salmon"
@@ -133,12 +136,12 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "They look quite"
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "plain out here."
                 }
               ],
@@ -165,6 +168,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "yellow",
                   "italic": false,
                   "text": "Realistic Cod"
@@ -182,7 +186,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "Minecraft's texture stinks."
                 }
               ],

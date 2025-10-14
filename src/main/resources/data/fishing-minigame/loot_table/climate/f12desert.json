@@ -23,6 +23,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "blue",
                   "italic": false,
                   "text": "Chub"
@@ -40,7 +41,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "Not really that chubby."
                 }
               ],
@@ -67,6 +68,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "blue",
                   "italic": false,
                   "text": "Shad"
@@ -84,7 +86,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "Seems shady to me."
                 }
               ],
@@ -111,6 +113,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "yellow",
                   "italic": false,
                   "text": "Bass"
@@ -128,7 +131,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "Why not treble?"
                 }
               ],
@@ -155,6 +158,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "red",
                   "italic": false,
                   "text": "Arapaima"
@@ -172,7 +176,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "Chunky and vicious."
                 }
               ],
@@ -199,6 +203,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "red",
                   "italic": false,
                   "text": "Tigerfish"
@@ -216,7 +221,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "Do NOT let it bite you."
                 }
               ],

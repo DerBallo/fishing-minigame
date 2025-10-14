@@ -23,6 +23,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "blue",
                   "italic": false,
                   "text": "Grayling"
@@ -40,7 +41,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "It sure is gray."
                 }
               ],
@@ -67,6 +68,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "blue",
                   "italic": false,
                   "text": "Trout"
@@ -84,7 +86,7 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "Taste the rainbow!"
                 }
               ],
@@ -111,6 +113,7 @@
               "function": "set_name",
               "name": [
                 {
+                  "bold": true,
                   "color": "yellow",
                   "italic": false,
                   "text": "Walleye"
@@ -128,12 +131,12 @@
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "It's staring in a"
                 },
                 {
                   "color": "gray",
-                  "italic": false,
+                  "italic": true,
                   "text": "walleyed way."
                 }
               ],
