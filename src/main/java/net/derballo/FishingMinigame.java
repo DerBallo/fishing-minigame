@@ -3,15 +3,20 @@ package net.derballo;
 import eu.pb4.sgui.api.elements.GuiElement;
 import eu.pb4.sgui.api.gui.SimpleGui;
 import net.minecraft.component.DataComponentTypes;
+import net.minecraft.component.type.LoreComponent;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.screen.ScreenHandlerType;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
+import net.minecraft.text.Style;
 import net.minecraft.text.Text;
 import net.minecraft.util.Colors;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
+
+import java.util.List;
 
 public class FishingMinigame {
     public static final ItemStack backgroundItem = new ItemStack(Items.WHITE_STAINED_GLASS_PANE);
@@ -30,25 +35,44 @@ public class FishingMinigame {
 
     public static void init() {
         backgroundItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:rock"));
-        backgroundItem.set(DataComponentTypes.ITEM_NAME, Text.literal(""));
+        backgroundItem.set(DataComponentTypes.ITEM_NAME, Text.literal("Background").formatted(Formatting.GRAY));
 
         waterItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:water"));
-        waterItem.set(DataComponentTypes.ITEM_NAME, Text.literal(""));
+        waterItem.set(DataComponentTypes.ITEM_NAME, Text.literal("Water").formatted(Formatting.GRAY));
 
         fishingHookItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:hook"));
-        fishingHookItem.set(DataComponentTypes.ITEM_NAME, Text.literal("Needs to be right above the fish!").withColor(Colors.YELLOW));
+        fishingHookItem.set(DataComponentTypes.ITEM_NAME, Text.literal("Hook").formatted(Formatting.GOLD, Formatting.BOLD));
+        fishingHookItem.set(DataComponentTypes.LORE, new LoreComponent(List.of(
+                Text.literal("Needs to be right").styled(style -> style.withItalic(false).withFormatting(Formatting.GRAY)),
+                Text.literal("above the fish!").styled(style -> style.withItalic(false).withFormatting(Formatting.GRAY))
+        )));
 
         fishItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:mysteryfish"));
-        fishItem.set(DataComponentTypes.ITEM_NAME, Text.literal("Who knows which one?").withColor(Colors.YELLOW));
+        fishItem.set(DataComponentTypes.ITEM_NAME, Text.literal("Mystery Fish").formatted(Formatting.GOLD, Formatting.BOLD));
+        fishItem.set(DataComponentTypes.LORE, new LoreComponent(List.of(
+                Text.literal("Who knows which one?").styled(style -> style.withItalic(false).withFormatting(Formatting.GRAY))
+        )));
 
         leftButtonItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:leftarrow"));
-        leftButtonItem.set(DataComponentTypes.ITEM_NAME, Text.literal("Move the hook 3 spaces to the left!").withColor(Colors.YELLOW));
+        leftButtonItem.set(DataComponentTypes.ITEM_NAME, Text.literal("-3").formatted(Formatting.GOLD, Formatting.BOLD));
+        leftButtonItem.set(DataComponentTypes.LORE, new LoreComponent(List.of(
+                Text.literal("Move the hook 3").styled(style -> style.withItalic(false).withFormatting(Formatting.GRAY)),
+                Text.literal("spaces to the left!").styled(style -> style.withItalic(false).withFormatting(Formatting.GRAY))
+        )));
 
         rightButtonItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:rightarrow"));
-        rightButtonItem.set(DataComponentTypes.ITEM_NAME, Text.literal("Move the hook 5 spaces to the right!").withColor(Colors.YELLOW));
+        rightButtonItem.set(DataComponentTypes.ITEM_NAME, Text.literal("+5").formatted(Formatting.GOLD, Formatting.BOLD));
+        rightButtonItem.set(DataComponentTypes.LORE, new LoreComponent(List.of(
+                Text.literal("Move the hook 5").styled(style -> style.withItalic(false).withFormatting(Formatting.GRAY)),
+                Text.literal("spaces to the right!").styled(style -> style.withItalic(false).withFormatting(Formatting.GRAY))
+        )));
 
         confirmButtonItem.set(DataComponentTypes.ITEM_MODEL, Identifier.of("minigamegui:catch"));
-        confirmButtonItem.set(DataComponentTypes.ITEM_NAME, Text.literal("Press when the hook is above the fish.").withColor(Colors.YELLOW));
+        confirmButtonItem.set(DataComponentTypes.ITEM_NAME, Text.literal("Confirm").formatted(Formatting.GOLD, Formatting.BOLD));
+        confirmButtonItem.set(DataComponentTypes.LORE, new LoreComponent(List.of(
+                Text.literal("Press when the hook").styled(style -> style.withItalic(false).withFormatting(Formatting.GRAY)),
+                Text.literal("is above the fish.").styled(style -> style.withItalic(false).withFormatting(Formatting.GRAY))
+        )));
     }
 
     public FishingMinigame(ServerPlayerEntity player, ItemStack rod){
